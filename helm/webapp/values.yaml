@@ -8,7 +8,7 @@ image:
   repository: hkhaleedabbas/argocd-course-webapp
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: 49efd97650ab0c9d4b3cb427e3bf10e10a739683
+  tag: da06bd75dda498364e71e48f14af181aa24da1de
 
 imagePullSecrets:
   - name: dockerhub-cred
