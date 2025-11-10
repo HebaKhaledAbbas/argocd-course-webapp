@@ -10,10 +10,12 @@ image:
   # Overrides the image tag whose default is the chart appVersion.
   tag: edf310441d612bca1e6eadd2b025e71878d69f1b
 
-imagePullSecrets: []
+imagePullSecrets:
+  - name: dockerhub-cred
+
 nameOverride: ""
 fullnameOverride: ""
-
+  
 serviceAccount:
   # Specifies whether a service account should be created
   create: true
